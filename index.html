@@ -11,7 +11,12 @@
         <h1>Welcome to My Website</h1>
         <nav>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <div class="dropdown">
+                <a href="#projects" class="dropdown-trigger">Projects</a>
+                <div class="dropdown-menu">
+                    <a href="#calculator">Calculator</a>
+                </div>
+            </div>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -23,7 +28,10 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Details about your projects go here.</p>
+            <article id="calculator">
+                <h3>Calculator</h3>
+                <p>This is a simple calculator project built with JavaScript.</p>
+            </article>
         </section>
         <section id="contact">
             <h2>Contact</h2>
