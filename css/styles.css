@@ -45,24 +45,29 @@ section h2 {
   padding-bottom: 0.5rem;
 }
 
+/* Footer Styles */
 footer {
   background: #333;
   color: #fff;
-  text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 20px; /* Ensure padding on all sides */
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between text and icons */
 }
 
 .contact-icons {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  gap: 15px; /* Space between icons */
 }
 
 .contact-icons a {
@@ -70,15 +75,23 @@ footer {
   text-decoration: none;
 }
 
-.contact-icons img {
-  width: 40px;
-  height: 40px;
+.contact-icons img,
+.contact-icons svg {
+  width: 30px;
+  height: 30px;
   transition: transform 0.2s ease;
 }
 
-.contact-icons img:hover {
+.contact-icons img:hover,
+.contact-icons svg:hover {
   transform: scale(1.1);
 }
+
+footer p {
+  margin: 0;
+  white-space: nowrap; /* Prevent the text from wrapping */
+}
+
 
 /* Dropdown Styles */
 .dropdown {
