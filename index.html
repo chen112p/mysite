@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Junting Chen's Personal Website</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
                 <button class="dropbtn">Projects</button>
                 <div class="dropdown-content">
                     <a href="calculator.html">Calculator</a>
-                    <a href="imagewand.html">ImageWand</a>
+                    <a href="https://chen112p.github.io/imagescaler/">ImageScaler</a>
                 </div>
             </div>
             <a href="#contact">Contact</a>
@@ -25,23 +25,51 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>This is where you write about yourself.</p>
+            <p>I am a Research Engineer with expertise in wind engineering, computational fluid dynamics (CFD), and data science. My skills include developing and validating transient CFD workflows, applying AI to engineering problems, and automating processes to improve efficiency. Currently pursuing a second master’s in data science, I am passionate about combining physics and AI to create innovative solutions.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <article id="calculator">
-                <h3>Calculator</h3>
-                <p>This is a simple calculator project built with JavaScript.</p>
+                <h3>
+                    <a href="calculator.html">
+                        Calculator
+                    </a>
+                </h3>
+                <p>This is a simple calculator project built with JavaScript, just for myself to understand how html, css, and js works.</p>
             </article>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out via email or social media.</p>
+            <article id="imagescaler">
+                <h3>
+                    <a href="https://chen112p.github.io/imagescaler/" target="_blank" rel="noopener noreferrer">
+                        ImageScaler
+                    </a>
+                </h3>
+                <p>An interactive tool that enables users to upload an image along with a ParaView-style color scale. Users can define a custom zone on the image by drawing, and apply a user-specified factor to dynamically adjust the values within the selected area. </p>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Personal Website</p>
+        <div class="contact-icons">
+            <a href="#" id="email-link">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50" height="50" viewBox="0 0 2048 2048" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd">
+                    <defs>
+                        <style>.fil1{fill:none}</style>
+                    </defs>
+                    <g id="Layer_x0020_1">
+                        <path style="fill:#7cb342" d="M255.999 577.13h1536v894.871h-1536z"/>
+                        <g id="_392035160">
+                            <path id="_392037680" class="fil1" d="M0 0h2048v2048H0z"/>
+                            <path id="_392033816" class="fil1" d="M255.999 255.999h1536v1536h-1536z"/>
+                        </g>
+                        <path d="M315.744 575.999h1412.53l-706.267 407.763L315.74 575.999zm1476.26 36.79v817.15L1222.832 941.4l569.172-328.61zm0 859.21v.001h-.001.001zm-49.002.001h-1438l577.164-495.398 123.971 71.575 15.877 9.166 15.874-9.166 126.349-72.947L1743 1472.001zm-1487 0zm0-42.061V615.086l567.571 327.688-567.572 487.165z" style="fill:#558b2f"/>
+                    </g>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jtcfd/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            </a>
+        </div>
+        <p>&copy; 2024 Junting Chen</p>
     </footer>
 
     <script src="js/script.js"></script>
